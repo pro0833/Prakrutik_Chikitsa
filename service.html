@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Prakrutik Chikitsa</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small style="color:white;" class="fa fa-map-marker-alt text-primary-1 me-2"></small>
+                    <small style="color:white;">Vasant-Bahar Road, Near Mahavir Garden, Kolhapur 416001</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary-1 me-2"></small>
+                    <small style="color:white;">Mon - Sat : 09:30 AM - 07:30 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <a href="tel:7249030063" target="_blank"><div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary-1 me-2"></small>
+                    <small style="color:white;">+919146479292</small>
+                </div></a>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href="https://api.whatsapp.com/send?phone=917249030063"><i class="fab fa-whatsapp"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-0" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img height="70px"src="img/logo.jpg">
+        </a>
+		<div width="70px"><marquee style="text-shadow: 0px 0px black;" width="95%;" scrollamount="6">Prakrutik Chikitsa is Live. You can book appointments from your home and visit us. Helpline No. 9146479292
+ </marquee><strong id="disable_notification"></strong>
+		</div>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link active">Service</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="appointment.html" class="dropdown-item">Appointment</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                       
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="appointment.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Services</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+
+
+<!-- 2 columns -->
+<div class="container">
+  <div class="row">
+    
+    <div class="col-xs-12 col-sm-4" >
+      <div style="background:url('img/service1.jpg');"class="box">
+        
+      </div>
+    </div>
+    
+    
+    <div class="col-xs-12 col-sm-8">
+      <div class="box">
+          <p class="justify"><span style="font-weight:bold;">Nadi Pareeksha:  Ayurvedic Technique Of Accurate Diagnosis</span><br><br>
+		  Nadi Pareeksha is also known as ‘Nadi chikitsa’ or the Ayurvedic pulse reading,
+		  which can accurately diagnose both physical and mental diseases as well as dosha imbalances.
+		  It is an important diagnostic tool used by Ayurvedic doctors and consists of various examination or physical tests.
+		  Nadi Pareeksha is widely used since 5000 years for the diagnosis of imbalance of dosha in the body and 
+		  concluding a disease.
+		  </p>
+		  
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!---2 Columns End--->
+<!-- 2 columns start -->
+<div class="container">
+  <div class="row">
+    
+	<div class="col-xs-12 col-sm-8">
+      <div class="box">
+          <p class="justify"><span style="font-weight:bold;">Garbhasanskar:</span><br><br>
+		  The Sanskrit word “Garbh” means a foetus in the womb and “Sanskar” means educating the mind. 
+		  So, Garbhasanskar essentially means educating the mind of the foetus.<br>	
+		  Things covered in Garbhasanskar are:<br>
+1.Assessment of current health status<br>
+2.Creating awareness and explaining the importance of garbhasanskar<br>
+3.Knowledge about month wise foetal development<br>
+4.Month wise diet plan according to Ayurveda<br>
+5.Trimester wise yoga and pranayama<br>
+6.Meditation and its importance<br>
+		  </p>
+		  
+      </div>
+    </div>
+	
+	
+    <div class="col-xs-12 col-sm-4" >
+      <div style="background:url('img/service2.jpg');"class="box">
+        
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+<!---2 Columns End--->
+
+
+
+<!-- 2 columns -->
+<div class="container">
+  <div class="row">
+    
+    <div class="col-xs-12 col-sm-4" >
+      <div style="background:url('img/service3.jpg');"class="box">
+        
+      </div>
+    </div>
+    
+    
+    <div class="col-xs-12 col-sm-8">
+      <div class="box">
+          <p class="justify"><span style="font-weight:bold;">Panchakarma</span><br><br>
+		  Panchakarma treatment in Ayurveda refers to five therapeutic measures (Karmas) to be undertaken for complete Detoxification of body.
+		  The Panchakarma treatment includes five Ayurvedic therapies:<br>
+
+1.Vaman (Medicated Emesis)<br>
+2.Virechan (Purgation)<br>
+3.Nasyam (Nasal Instillation)<br>
+4.Kashay Basti (Enema)<br>
+5.Sneha Basti (Enema)<br>
+		  </p>
+		  
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!---2 Columns End--->
+<!-- 2 columns start -->
+<div class="container">
+  <div class="row">
+    
+	<div class="col-xs-12 col-sm-8">
+      <div class="box">
+          <p class="justify"><span style="font-weight:bold;">Yoga</span><br><br>
+		  Yoga is the ancient practice of mind and body that combines physical postures, breathing techniques and meditation.<br>
+		  The practice finds its origins in India, dating back to 3000 BC and is believed to have been developed by the sages of the Indus Saraswati Valley civilization.<br>
+		  Yoga is a mind and body practice. Various styles of yoga combine physical postures, breathing techniques, and meditation or relaxation. Yoga is an ancient practice that may have originated in India. It involves movement, meditation, and breathing techniques to promote mental and physical well-being.
+		  </p>
+		  
+      </div>
+    </div>
+	
+	
+    <div class="col-xs-12 col-sm-4" >
+      <div style="background:url('img/service4.jpg');"class="box">
+        
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+<!---2 Columns End--->
+
+
+
+<!-- 2 columns -->
+<div class="container">
+  <div class="row">
+    
+    <div class="col-xs-12 col-sm-4" >
+      <div style="background:url('img/service5.png');"class="box">
+        
+      </div>
+    </div>
+    
+    
+    <div class="col-xs-12 col-sm-8">
+      <div class="box">
+          <p class="justify"><span style="font-weight:bold;"> Diet</span><br><br>
+		  The Ayurvedic diet is an eating pattern that’s been around for thousands of years. It’s based on the principles of Ayurvedic medicine and focuses on balancing different types of energy within your body, which is said to improve health.<br>
+		  The Ayurvedic diet is a component of Ayurveda and has been practiced for thousands of years. It’s based on determining your dominant dosha and eating specific foods to promote balance between all three doshas.<br>
+		  Given that the Ayurvedic diet emphasizes nutrient-rich whole foods, it might boost weight loss.
+
+While limited research is available on the Ayurvedic diet and weight loss, some studies have found that it may be effective in this regard.
+		  </p>
+		  
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!---2 Columns End--->
+<!-- 2 columns start -->
+<div class="container">
+  <div class="row">
+    
+	<div class="col-xs-12 col-sm-8">
+      <div class="box">
+          <p class="justify"><span style="font-weight:bold;">Mental Health</span><br><br>
+		  Mental health includes our emotional, behavioural and social well-being. To have a good physical health it is very important that one has normal and healthy mind. However, the stressful and hectic modern lifestyle increases risk of having poor Mental Health. Mental illnesses such as depression, anxiety or sleep problems are seen very commonly among people who have a very unhealthy lifestyle that includes poor diet, lack of physical activity, lack of social engagement and too much stress. It is a well-known fact that mental stress can eventually have some serious effects on our physical health.
+		  </p>
+		  
+      </div>
+    </div>
+	
+	
+    <div class="col-xs-12 col-sm-4" >
+      <div style="background:url('img/service6.jpg');"class="box">
+        
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+<!---2 Columns End--->
+
+
+
+ <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Services</p>
+                <h1 style="color:green;text-shadow: 1px 1px black;">प्राकृतिक चिकित्सा</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-heartbeat text-primary fs-4"></i>
+                        </div>
+                        <h4 style="color:black;" class="mb-3">Nadi Pareeksha</h4>
+                        <p class="mb-4">We are experienced and skilled Ayurvedic doctor can diagnose a disease condition based on using pulse diagnosis chart.</p>
+         <a style="color:white;"href="https://api.whatsapp.com/send?phone=917249030063"><div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                                                                      <i class="fab fa-whatsapp text-primary fs-4"></i> 
+                                                                    </div>&nbsp Ask Doctor</a>				
+                    </div>
+					
+					
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-baby text-primary fs-4"></i>
+                        </div>
+                        <h4  style="color:black;" class="mb-3">Garbha Sanskar</h4>
+                        <p class="mb-4">We are teaching  process of selecting and transmitting positive influences to the foetus through yoga, praying....</p>
+                        <a style="color:white;" href="https://api.whatsapp.com/send?phone=917249030063"><div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                                                                      <i class="fab fa-whatsapp text-primary fs-4"></i> 
+                                                                    </div>&nbsp Ask Doctor</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-spa text-primary fs-4"></i>
+                        </div>
+                        <h4  style="color:black;" class="mb-3">Panchakarma</h4>
+                        <p class="mb-4">Panchakarma is one of the best natural Ayurvedic therapies for Detoxification that expels body toxins...</p>
+                         <a style="color:white;" href="https://api.whatsapp.com/send?phone=917249030063"><div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                                                                      <i class="fab fa-whatsapp text-primary fs-4"></i> 
+                                                                    </div>&nbsp Ask Doctor</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-heart text-primary fs-4"></i>
+                        </div>
+                        <h4  style="color:black;" class="mb-3">Yoga</h4>
+                        <p class="mb-4">Yoga and meditation are the most effective methods to recharge the body and mind and relieve the tension and stress of modern life...</p>
+                         <a style="color:white;" href="https://api.whatsapp.com/send?phone=917249030063"><div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                                                                      <i class="fab fa-whatsapp text-primary fs-4"></i> 
+                                                                    </div>&nbsp Ask Doctor</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fas fa-utensils text-primary fs-4"></i>
+                        </div>
+                        <h4  style="color:black;" class="mb-3">Diet</h4>
+                        <p class="mb-4">It’s based on the principles of Ayurvedic medicine and focuses on balancing different types of energy within your body, which is said to improve health...</p>
+                         <a style="color:white;" href="https://api.whatsapp.com/send?phone=917249030063"><div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                                                                      <i class="fab fa-whatsapp text-primary fs-4"></i> 
+                                                                    </div>&nbsp Ask Doctor</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-brain text-primary fs-4"></i>
+                        </div>
+                        <h4  style="color:black;" class="mb-3">Mental Health</h4>
+                        <p class="mb-4">We provide solution for Mental illnesses such as depression,  poor diet, lack of physical activity, lack of social engagement and too much stress...</p>
+                         <a style="color:white;" href="https://api.whatsapp.com/send?phone=917249030063"><div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                                                                      <i class="fab fa-whatsapp text-primary fs-4"></i> 
+                                                                    </div>&nbsp Ask Doctor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+               <a href="service.html"> <p class="d-inline-block border rounded-pill py-1 px-4">More Services</p></a>
+                
+            </div>
+    <!-- Service End -->
+
+	
+	  <!-- Appointment Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="d-inline-block border rounded-pill py-1 px-4">Appointment</p>
+                    <h1 class="mb-4">Make An Appointment To Visit Our Doctor</h1>
+                    <p class="mb-4">Our team of <b>Prakritik Chikitsa</b> is there for you,
+ from finding the right treatement to booking appointments and giving any kind of medical help in between.</p>
+         <a href="tel:7249030063" target="_blank">    <div class="bg-light rounded d-flex align-items-center p-5 mb-4">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                            <i class="fa fa-phone-alt text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <p style="color:white;"class="mb-2">Call Us Now</p>
+                            <h5 style="color:white;"class="mb-2">+919146479292</h5>
+                        </div>
+                    </div></a>
+        <a href="mailto:pksutar7588@gmail.com" target="_blank">     <div class="bg-light rounded d-flex align-items-center p-5">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                            <i class="fa fa-envelope-open text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <p style="color:white;" class="mb-2">Mail Us Now</p>
+                            <b style="color:white;" class="mb-0">psutar7588@gmail.com</b>
+                        </div>
+                    </div></a>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-light rounded h-100 d-flex align-items-center p-5">
+                        <form action="https://formspree.io/f/xqkolbqv" method="POST">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" id="username" name="Name" required class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" id="username" name="Email" required class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" id="username" name="Mobile" required class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option name="Treatment" required selected>Choose Treatement</option>
+                                        <option name="Treatement" value="1">Panchakarma</option>
+                                        <option name="Treatement" value="2">Yoga</option>
+                                        <option name="Treatement" value="3">Nadi Parikshan</option>
+										<option name="Treatement" value="3">Diet</option>
+										<option name="Treatement" value="3">GarbhSanksar</option>
+										<option name="Treatement" value="3">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="date" id="date" name="Date" required  data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Choose Date"  name="Date" required data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="time" id="time" name="Time" required data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Choose Time" name="Time" required data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" name="Problem" required rows="5" placeholder="Describe your problem"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+	
+	
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Testimonial</p>
+                <h1>What Say Our Patients!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>Overall I may say that after 21 days of taking medicines prescribed by Dr.D.P.Chandur, daily massages and good panchakarma food cooked by team my body and mind became clean and light and I felt very well.</p>
+                        <h5 class="mb-1">Kumari Patil</h5>	
+						<span class="fst-italic">CEO of RK Steel</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>Doctor, You could treat me of my frozen shoulder, spondylitis and carpel tunnel syndrome with no internal medicines but with Naturopathy Yoga Pranayama and Meditation. To make us feel pampered there you added Ayurveda in its purest form. </p>
+                        <h5 class="mb-1">Satyadeep Thorat</h5>
+						<span class="fst-italic">Farmer</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-3.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>Thank you Dr.D.P.Chandur for giving me proper diet. I’ve lost weight, gained my confidence back and started loving me again.</p>
+                        <h5 class="mb-1">Samruddhi Dhondugade</h5>
+                        <span class="fst-italic">Computer Engineer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="color:white;"class="text-light mb-4 ">Address</h5>
+                  <a href="https://goo.gl/maps/FNMQt3HCnRmm7PUB9">  <p style="color:white;" class="mb-2 justify"><i class="fa fa-map-marker-alt me-3"></i>Vasant-Bahar road, Near mahavir garden, Kolhapur 416001</p></a>
+                  <a href="tel:7249030063" target="_blank">  <p style="color:white;" class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919146479292</p></a>
+                  <a href="mailto:pksutar7588@gmail.com" target="_blank">  <p style="color:white;" class="mb-2"><i class="fa fa-envelope me-3"></i>pksutar7588@gmail.com</p></a>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social rounded-circle" href="https://api.whatsapp.com/send?phone=917249030063" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                   <h5 style="color:white;" class="text-light mb-4">Services</h5>
+                    <a style="color:white;" class="btn btn-link" href="service.html">Panchakarma</a>
+                    <a style="color:white;" class="btn btn-link" href="service.html">Yoga</a>
+                    <a style="color:white;" class="btn btn-link" href="service.html">Nadi Parikshan</a>
+                    <a style="color:white;" class="btn btn-link" href="service.html">Diet</a>
+                    <a style="color:white;" class="btn btn-link" href="service.html">GarbhSanksar</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                   <h5 style="color:white;" class="text-light mb-4">Quick Links</h5>
+                    <a style="color:white;" class="btn btn-link" href="about.html">About Us</a>
+                    <a style="color:white;" class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a style="color:white;" class="btn btn-link" href="service.html">Our Services</a>
+                    <a style="color:white;" class="btn btn-link" href="testimonial.html">Testinomials</a>
+                    <a style="color:white;" class="btn btn-link" href="appointment.html">Appointment</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="color:white;"class="text-light mb-4">About Us</h5>
+                    <p style="color:white;"class="justify"> Prakrurtik Chikitsa is one of the best chikitsa in the Kolhapur. And we provide health care Services.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a style="color:white;" class="border-bottom anchor" href="#">Prakritik Chikitsa</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a style="color:white;"class="border-bottom" href="https://htmlcodex.com">Prasad Sutar</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+	<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '17eabe56-27df-4535-8cea-7bef2d50e9af', f: true }); done = true; } }; })();</script>
+</body>
+
+</html>
